@@ -42,9 +42,9 @@ Add the dependency to your `pom.xml`:
 ### Initialization
 Start by initializing the SDK with your API key and secret:
 ```kotlin
-import com.firi.sdk.FiriClient
+import com.firi.sdk.FiriSDK
 
-val firiClient = FiriClient(
+val firiSDK = FiriSDK(
     apiVersion = "latest-api-version",
     apiKey = "your-api-key",
     apiClientId = "your-api-client-id",
@@ -54,13 +54,13 @@ val firiClient = FiriClient(
 
 ### Fetch Account Balance
 ```kotlin
-val balance = firiClient.getUserWalletBalances()
+val balance = firiSDK.getUserWalletBalances()
 println("Your user balances: $balance")
 ```
 
 ### Place an Order
 ```kotlin
-val orderResponse = firiClient.createOrder(
+val orderResponse = firiSDK.createOrder(
     symbol = "BTCNOK",
     amount = 0.01,
     price = 500000.0,
@@ -71,7 +71,7 @@ println("Order placed: $orderResponse")
 
 ### Fetch Market Data
 ```kotlin
-val marketData = firiClient.getMarketData("BTCNOK")
+val marketData = firiSDK.getMarketData("BTCNOK")
 println("Market Data: $marketData")
 ```
 
