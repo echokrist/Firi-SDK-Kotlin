@@ -3,6 +3,11 @@
 
 Welcome to the **Firi SDK for Kotlin**, an easy-to-use SDK for interacting with the Firi cryptocurrency trading platform. This SDK allows developers to integrate Firi's functionality into their Kotlin-based applications with minimal effort.
 
+If you want to start investing in cryptocurrency with Firi, you can use my referal code: 22ccc3f1,
+or scan this image with my QR-code(NOTE! Only individuals with BankID/MitID who are over 18 years old can register!):
+
+![Firi referal](https://github.com/user-attachments/assets/d11a9dc9-370c-418e-8364-8e6b74c5d3d9)
+
 ---
 
 ## Features
