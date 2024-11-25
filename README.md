@@ -4,10 +4,23 @@
 Welcome to the **Firi SDK for Kotlin**, an easy-to-use SDK for interacting with the [Firi](https://firi.com/affiliate?referral=22ccc3f1)
  cryptocurrency trading platform. This SDK allows developers to integrate [Firi's](https://firi.com/affiliate?referral=22ccc3f1) functionality into their Kotlin-based applications with minimal effort.
 
-If you want to start investing in cryptocurrency with [Firi](https://firi.com/affiliate?referral=22ccc3f1), you can use my [Referral link](https://firi.com/affiliate?referral=22ccc3f1) and get 55 kr in welcome bonus!
-Or scan this image with my QR-code(NOTE! Only individuals with BankID/MitID who are over 18 years old can register!):
+--- 
 
-![Firi referal](https://github.com/user-attachments/assets/d11a9dc9-370c-418e-8364-8e6b74c5d3d9)
+## Start Investing in Cryptocurrency with Firi! 🚀
+
+#### ⚠️ **IMPORTANT NOTE (READ BEFORE REGISTERING):**  
+- Buying and selling cryptocurrency involves **high risk**, and past performance is **not a guarantee** of future results.
+- You must be at least **18 years old** to register. 
+- **BankID** or **MitID** is required to verify your identity.  
+
+Stay informed and invest responsibly! 💡
+
+If you want to start investing in cryptocurrency with [Firi](https://firi.com/affiliate?referral=22ccc3f1), you can use my **[Referral Link](https://firi.com/affiliate?referral=22ccc3f1)** and receive **55 kr in welcome bonus!** 🎉  
+
+Or scan the QR code below to get started:
+
+![Firi Referral](https://github.com/user-attachments/assets/d11a9dc9-370c-418e-8364-8e6b74c5d3d9)
+ 
 
 ---
 
