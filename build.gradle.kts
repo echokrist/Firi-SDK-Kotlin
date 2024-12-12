@@ -1,4 +1,4 @@
-group = "com.firi.sdk.FiriSDK"
+group = "com.github.echokrist"
 version = "1.0.0"
 
 plugins {
