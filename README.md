@@ -109,6 +109,13 @@ println("Market Data: $marketData")
 ### Contributing
 Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request.
 
+
+### Build applicaiton
+To build locally, use the following command:
+```bash
+./gradlew test
+```
+
 ### Running Tests
 To run tests, use the following command:
 ```bash
@@ -116,6 +123,13 @@ To run tests, use the following command:
 ```
 
 ---
+
+### Upgrading the gradle wrapper
+Find the newest version of gradle here: https://gradle.org/releases/ Then run this command:
+(Remeber to repealce $gradleVersjon with the newest version)
+```shell script
+./gradlew wrapper --gradle-version $gradleVersjon
+```
 
 ## License
 
