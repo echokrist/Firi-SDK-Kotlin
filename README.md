@@ -113,7 +113,7 @@ Contributions are welcome! Please fork the repository, create a new branch, and 
 ### Build applicaiton
 To build locally, use the following command:
 ```bash
-./gradlew test
+./gradlew clean build
 ```
 
 ### Running Tests
