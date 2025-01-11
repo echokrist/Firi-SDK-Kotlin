@@ -1,6 +1,6 @@
 package coin
 
-enum class Coin {
+public enum class Coin {
     XRP,
     LTC,
     ETH,

@@ -12,7 +12,7 @@ import java.io.IOException
 import javax.crypto.Mac
 import javax.crypto.spec.SecretKeySpec
 
-class ApiClient(
+public class ApiClient(
     override val apiVersion: ApiVersion,
     override val apiClientId: String,
     override val apiKey: String,
@@ -318,8 +318,8 @@ class ApiClient(
         }
     }
 
-    sealed class ApiResponseDecoded {
-        data class JsonArray(val data: JsonArray) : ApiResponseDecoded()
-        data class JsonObject(val error: JsonObject) : ApiResponseDecoded()
+    public sealed class ApiResponseDecoded {
+        public data class JsonArray(val data: JsonArray) : ApiResponseDecoded()
+        public data class JsonObject(val error: JsonObject) : ApiResponseDecoded()
     }
 }

@@ -4,7 +4,7 @@ import api.IApiClient
 import kotlinx.serialization.json.JsonArray
 import main.service.BaseService
 
-class BalanceService(private val apiClientService: IApiClient): BaseService(),IBalanceService
+public class BalanceService(private val apiClientService: IApiClient): BaseService(),IBalanceService
 {
     override val endpoint: String = "balances"
 

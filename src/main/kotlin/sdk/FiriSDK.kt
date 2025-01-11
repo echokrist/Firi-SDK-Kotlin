@@ -18,7 +18,7 @@ import time.TimeService
 import transaction.ITransactionService
 import transaction.TransactionService
 
-class FiriSDK(override val apiVersion: String = ApiVersion.v2.toString(), override val apiKey: String, override val apiClientId: String, override val apiSecretKey : String) : IFiriSDK
+public class FiriSDK(override val apiVersion: String = ApiVersion.v2.toString(), override val apiKey: String, override val apiClientId: String, override val apiSecretKey : String) : IFiriSDK
 {
 
     private val apiClient: IApiClient by lazy {

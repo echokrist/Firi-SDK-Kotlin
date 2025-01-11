@@ -6,11 +6,11 @@ import java.util.*
 
 
 @Serializable
-data class Transaction(
-    val id: String,
-    val amount: Double,
-    val currency: Coin,
-    val type: String,
-    val date: Date,
-    val details: Map<String, Any>
+public data class Transaction(
+    public val id: String,
+    public val amount: Double,
+    public val currency: Coin,
+    public val type: String,
+    public val date: Date,
+    public val details: Map<String, Any>
 )

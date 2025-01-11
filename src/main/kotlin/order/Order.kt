@@ -3,15 +3,15 @@ package order
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class Order(
-    override val id: Int,
-    override val market: String,
-    override val type: String,
-    override val price: Double,
-    override val amount: Double,
-    override val remaining: Double,
-    override val matched: Double,
-    override val cancelled: Double,
-    override val createdAt: String
+public data class Order(
+    public override val id: Int,
+    public override val market: String,
+    public override val type: String,
+    public override val price: Double,
+    public override val amount: Double,
+    public override val remaining: Double,
+    public override val matched: Double,
+    public override val cancelled: Double,
+    public override val createdAt: String
 ): IOrder
 

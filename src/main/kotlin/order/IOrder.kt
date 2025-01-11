@@ -1,13 +1,13 @@
 package order
 
-interface IOrder {
-     val id: Int
-     val market: String
-     val type: String
-     val price: Double
-     val amount: Double
-     val remaining: Double
-     val matched: Double
-     val cancelled: Double
-     val createdAt: String
+public interface IOrder {
+     public val id: Int
+     public val market: String
+     public val type: String
+     public val price: Double
+     public val amount: Double
+     public val remaining: Double
+     public val matched: Double
+     public val cancelled: Double
+     public val createdAt: String
 }

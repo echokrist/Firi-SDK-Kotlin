@@ -7,7 +7,7 @@ import javax.crypto.Mac
 import javax.crypto.SecretKey
 
 @Serializable
-data class ApiConnectionDetails(
+public data class ApiConnectionDetails(
     val secretKey: SecretKey,
     val timeStamp: Date,
     val validity: Int,

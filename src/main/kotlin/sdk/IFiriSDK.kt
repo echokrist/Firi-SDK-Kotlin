@@ -7,9 +7,9 @@ import order.IOrderService
 import time.ITimeService
 import transaction.ITransactionService
 
-interface IFiriSDK : ITimeService, IBalanceService, ITransactionService, IDespoitService, IMarketService, IOrderService {
-    val apiVersion: String
-    val apiKey: String
-    val apiClientId: String
-    val apiSecretKey: String
+public interface IFiriSDK : ITimeService, IBalanceService, ITransactionService, IDespoitService, IMarketService, IOrderService {
+    public val apiVersion: String
+    public val apiKey: String
+    public val apiClientId: String
+    public val apiSecretKey: String
 }

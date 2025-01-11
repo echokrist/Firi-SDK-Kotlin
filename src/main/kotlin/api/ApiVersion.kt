@@ -3,12 +3,12 @@ package api
 import api.ApiVersion.values
 
 
-enum class ApiVersion(val isLatest: Boolean = false) {
+public enum class ApiVersion(public val isLatest: Boolean = false) {
     v1,
     v2(true),
     latest;
 
-    companion object {
-        val latestVersion = values().first { it.isLatest }
+    public companion object {
+        public val latestVersion: ApiVersion = values().first { it.isLatest }
     }
 }

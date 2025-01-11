@@ -4,7 +4,7 @@ import api.IApiClient
 import kotlinx.serialization.json.JsonArray
 import main.service.BaseService
 
-class MarketService(private val apiClientService: IApiClient): BaseService(), IMarketService {
+public class MarketService(private val apiClientService: IApiClient): BaseService(), IMarketService {
 
     override val endpoint: String = "markets"
 

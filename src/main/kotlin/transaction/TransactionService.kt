@@ -4,7 +4,7 @@ import api.IApiClient
 import kotlinx.serialization.json.JsonArray
 import main.service.BaseService
 
-class TransactionService(private val apiClientService: IApiClient): BaseService(),ITransactionService {
+public class TransactionService(private val apiClientService: IApiClient): BaseService(),ITransactionService {
 
     override val endpoint: String = "transactions"
 

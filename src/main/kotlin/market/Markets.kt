@@ -3,7 +3,7 @@ package market
 import kotlinx.serialization.Serializable
 
 @Serializable
-enum class Markets {
+public enum class Markets {
     BTCNOK,
     XRPNOK,
     USDCNOK,

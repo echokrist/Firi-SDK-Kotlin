@@ -5,7 +5,7 @@ import coin.Coin
 import kotlinx.serialization.json.JsonArray
 import main.service.BaseService
 
-class DepositService(private val apiClientService: IApiClient): BaseService(),IDespoitService {
+public class DepositService(private val apiClientService: IApiClient): BaseService(),IDespoitService {
     override val endpoint: String = "deposit"
 
     override suspend fun getUsersDepositHistory(count: Int?, before: Int?): JsonArray {

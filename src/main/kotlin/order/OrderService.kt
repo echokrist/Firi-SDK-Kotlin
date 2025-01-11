@@ -7,7 +7,7 @@ import kotlinx.serialization.json.encodeToJsonElement
 import main.service.BaseService
 import market.IMarketService
 
-class OrderService(private val apiClientService: IApiClient, private val marketServices: IMarketService): BaseService(),IOrderService {
+public class OrderService(private val apiClientService: IApiClient, private val marketServices: IMarketService): BaseService(),IOrderService {
 
     override val endpoint: String = "orders"
 

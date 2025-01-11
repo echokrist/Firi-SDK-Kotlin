@@ -2,6 +2,6 @@ package balance
 
 import kotlinx.serialization.json.JsonArray
 
-interface IBalanceService {
-    suspend fun getUserWalletBalances(): JsonArray
+public interface IBalanceService {
+    public suspend fun getUserWalletBalances(): JsonArray
 }

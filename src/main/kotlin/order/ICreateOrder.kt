@@ -1,8 +1,8 @@
 package order
 
-interface ICreateOrder {
-    val market: String
-    val type: String
-    val price: Double
-    val amount: Double
+public interface ICreateOrder {
+    public val market: String
+    public val type: String
+    public val price: Double
+    public val amount: Double
 }

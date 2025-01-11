@@ -4,6 +4,6 @@ import kotlinx.serialization.Serializable
 
 
 @Serializable
-data class Time(
-    val serverTime: Long
+public data class Time(
+    public val serverTime: Long
 )
