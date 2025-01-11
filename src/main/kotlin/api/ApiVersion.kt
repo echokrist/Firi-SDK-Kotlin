@@ -9,6 +9,6 @@ public enum class ApiVersion(public val isLatest: Boolean = false) {
     latest;
 
     public companion object {
-        public val latestVersion: ApiVersion = values().first { it.isLatest }
+        public val latestVersion: ApiVersion = entries.first { it.isLatest }
     }
 }
